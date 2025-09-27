@@ -1,0 +1,173 @@
+/* ======== RESET ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0f0f0f;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+/* ======== HEADER Y NAV ======== */
+header {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #ffcc00;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #ffcc00;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* ======== SECCIÓN PRINCIPAL ======== */
+.padre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px 20px;
+}
+
+.hijo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.nieto {
+  background: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.nieto:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.7);
+}
+
+.nieto h2 {
+  color: #ffcc00;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+.nieto img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.nieto p {
+  color: #ddd;
+  font-size: 0.95rem;
+}
+
+/* ======== REDES SOCIALES ======== */
+.socical {
+  text-align: center;
+  padding: 30px;
+  background: #111;
+  border-top: 2px solid #ffcc00;
+}
+
+.socical h2 {
+  margin-bottom: 15px;
+  color: #ffcc00;
+}
+
+.socical a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.socical .facebook { color: #3b5998; }
+.socical .instagram { color: #e4405f; }
+.socical .twitter { color: #1da1f2; }
+.socical .youtube { color: #ff0000; }
+.socical .whatsapp { color: #25d366; }
+
+.socical a:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+/* ======== FOOTER LINKS ======== */
+.footer-links {
+  background: #1a1a1a;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-container h3 {
+  color: #ffcc00;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.footer-container ul {
+  list-style: none;
+}
+
+.footer-container li {
+  margin-bottom: 8px;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: #bbb;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.footer-container a:hover {
+  color: #ffcc00;
+}
+
+/* ======== FOOTER COPYRIGHT ======== */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #111;
+  border-top: 2px solid #ffcc00;
+  font-size: 0.9rem;
+  color: #aaa;
+}
